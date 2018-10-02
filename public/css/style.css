@@ -1,0 +1,32 @@
+@font-face {
+    font-family: HighGothic;
+    src: url("fonts/HighlandGothicFLF.ttf");
+}
+
+body {
+    font-family: HighGothic;
+}
+
+.custom-class {
+    background-image: url("../images/back3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stroke {
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.border-thickness {
+    border-width: 3px !important;
+}
+
+.custom-padding {
+    padding-bottom: 50vh;
+}
